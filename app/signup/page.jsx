@@ -7,8 +7,8 @@ const page = () => {
           backgroundImage: `linear-gradient(#6100C2,#37145fa6),url("/bg-login.jpg")`,
         }}
       >
-        <div className="text-center pt-72">
-          <div className="logo mb-12">
+        <div className="text-center pt-10">
+          <div className="logo">
             <h1 className="flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ const page = () => {
                 <path
                   d="M13.3333 1.33325V5.33325"
                   stroke="#7900C2"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M18.6667 1.33325V5.33325"
@@ -57,15 +57,28 @@ const page = () => {
               <span className="mx-2 font-bold text-xl">Watch</span>
             </h1>
           </div>
-          <div className="tagline my-5 mb-10">
+          <div className="tagline my-3">
             <p className="text-2xl font-light">Enjoy the newest movies!</p>
           </div>
+          <div className="inputs mt-20">
+            <input
+              type="text"
+              className="bg-black w-52 py-2 px-2 rounded-md opacity-70 my-2"
+              placeholder="Email"
+            />{" "}
+            <br />
+            <input
+              type="password"
+              className="bg-black w-52 py-2 px-2 rounded-md opacity-70 my-2"
+              placeholder="Password"
+            />
+          </div>
           <div className="btn mt-5">
-            <button className="bg-black rounded-lg p-[17px] w-fit border border-white font-bold hover:bg-[#6100C2]  transition-all duration-200">
+            <button className="bg-black rounded-lg px-[50px] py-[7px] text-center w-fit border border-white font-bold hover:bg-[#6100C2]  transition-all duration-200">
               Sign up
             </button>
           </div>
-          <div className="signup mt-2">
+          <div className="signup mt-5">
             <p>
               Have account?{" "}
               <span className="font-bold underline hover:cursor-pointer transition-all duration-200 hover:text-blue-400">
@@ -73,6 +86,11 @@ const page = () => {
               </span>
             </p>
           </div>
+        </div>
+        <div className="footer absolute bottom-5 left-[40%]">
+          <p className="text-xl font-bold">
+            Developed by <span className="">Omkar!</span>
+          </p>
         </div>
       </div>
     </>

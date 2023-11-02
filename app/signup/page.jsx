@@ -62,14 +62,14 @@ const page = () => {
           </div>
           <div className="btn mt-5">
             <button className="bg-black rounded-lg p-[17px] w-fit border border-white font-bold hover:bg-[#6100C2]  transition-all duration-200">
-              Login in
+              Sign up
             </button>
           </div>
           <div className="signup mt-2">
             <p>
-              No account?{" "}
+              Have account?{" "}
               <span className="font-bold underline hover:cursor-pointer transition-all duration-200 hover:text-blue-400">
-                Sign up
+                Login in
               </span>
             </p>
           </div>

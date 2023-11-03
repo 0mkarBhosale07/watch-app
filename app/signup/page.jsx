@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const page = () => {
   return (
     <>
@@ -60,17 +62,26 @@ const page = () => {
           <div className="tagline my-3">
             <p className="text-2xl font-light">Enjoy the newest movies!</p>
           </div>
-          <div className="inputs mt-20">
+          <div className="title mt-20 ">
+            <p className="font-bold text-2xl opacity-70">SIGNUP</p>
+          </div>
+          <div className="inputs mt-10">
             <input
               type="text"
-              className="bg-black w-52 py-2 px-2 rounded-md opacity-70 my-2"
+              className="bg-black w-64 py-2 px-2 rounded-md opacity-70 my-2"
               placeholder="Email"
             />{" "}
             <br />
             <input
               type="password"
-              className="bg-black w-52 py-2 px-2 rounded-md opacity-70 my-2"
+              className="bg-black w-64 py-2 px-2 rounded-md opacity-70 my-2"
               placeholder="Password"
+            />
+            <br />
+            <input
+              type="password"
+              className="bg-black w-64 py-2 px-2 rounded-md opacity-70 my-2"
+              placeholder="Re-enter Password"
             />
           </div>
           <div className="btn mt-5">
@@ -82,7 +93,7 @@ const page = () => {
             <p>
               Have account?{" "}
               <span className="font-bold underline hover:cursor-pointer transition-all duration-200 hover:text-blue-400">
-                Login in
+                <Link href="/login">Login in</Link>
               </span>
             </p>
           </div>

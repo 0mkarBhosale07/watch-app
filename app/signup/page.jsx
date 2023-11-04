@@ -98,7 +98,7 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="footer absolute bottom-5 left-[40%]">
+        <div className="footer absolute bottom-5 left-[40%] md:left-[45%]">
           <p className="text-xl font-bold">
             Developed by <span className="">Omkar!</span>
           </p>

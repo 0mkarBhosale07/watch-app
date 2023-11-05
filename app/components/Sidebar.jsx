@@ -54,22 +54,22 @@ const Sidebar = () => {
             <span className="mx-2 font-bold text-xl">Watch</span>
           </h1>
         </div>
-        <div className="navigation">
-          <h1 className="flex">
+        <div className="navigation mt-10 grid gap-6">
+          <h1 className="flex gap-5 hover:bg-[#6100C2] rounded-md py-4 px-10 transition-all duration-200 hover:cursor-pointer">
             <Home />
             <span>Home</span>
           </h1>
-          <h1 className="flex">
+          <h1 className="flex gap-5 hover:bg-[#6100C2] rounded-md py-4 px-10 transition-all duration-200 hover:cursor-pointer">
             <Heart />
             <span>Favourites</span>
           </h1>
-          <h1 className="flex">
+          <h1 className="flex gap-5 hover:bg-[#6100C2] rounded-md py-4 px-10 transition-all duration-200 hover:cursor-pointer">
             <TrendingUp />
             <span>Trending</span>
           </h1>
-          <h1 className="flex">
+          <h1 className="flex gap-5 hover:bg-[#6100C2] rounded-md py-4 px-10 transition-all duration-200 hover:cursor-pointer">
             <Calendar />
-            <span>Coming soon</span>
+            <span>Coming</span>
           </h1>
         </div>
       </div>

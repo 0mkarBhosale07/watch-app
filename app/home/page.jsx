@@ -8,7 +8,7 @@ export default function Home() {
           <Sidebar />
         </div>
         <div className="main">
-          <div className="main-screen"></div>
+          <div className="main-screen nav"></div>
         </div>
       </div>
     </>
